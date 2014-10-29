@@ -61,15 +61,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func subtractLemons(sender: AnyObject) {
-      
+        
         if (LemonCount >= 1) {
             CashOnHand += CostofLemon
             LemonCount--
             updatedisplay()
-            println("Lemons \(LemonCount)")
+            println("Lemon \(LemonCount)")
         }
-    
     }
+
+   
     
     @IBAction func SubtractIce(sender: AnyObject) {
         
@@ -80,6 +81,8 @@ class ViewController: UIViewController {
             println("Ice \(IceCount)")
         }
     }
+
+  
 
 
  
